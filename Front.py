@@ -11,13 +11,13 @@ st.title("🏆 Predicting Winning Teams in Dota 2 Matches")
 st.write(
     """
     This machine learning app predicts whether a Dota 2 team wins a match based on in-game statistics.
-    
+    for more information about the dataset, and analysis on the problem and how we chose the model, please refer to the notebook:
+    https://colab.research.google.com/drive/1lF4ouQxq8ZNYSvH51SRTshRQJKPUgvxC
     - The data format must match the Kaggle dataset:
       [Dota 2 Matches Dataset](https://www.kaggle.com/datasets/ashishpatel26/dota-2-matches)
     - You can use the example dataset below to test the model.
     """
 )
-
 # Example data (to be previewed)
 data_cleaned = pd.read_csv('data_cleaned.csv')  # lowercase 'cleaned'
 
